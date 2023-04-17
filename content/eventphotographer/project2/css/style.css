@@ -1,0 +1,139 @@
+body{
+    font-family: "Playfair Display", serif;
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 100vh; /* adjust as necessary */
+    padding: 10px 50px; /* reduce padding for smaller screens */
+  }
+  
+  .header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/4.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+}
+
+.container #motto{
+    font-family: "Playfair Display", serif;
+    font-size: 500%;
+    color: white;
+    display: block;
+}
+
+.container #pers{
+    font-family: "Playfair Display", serif;
+    color: white;
+    display: block;
+    text-align: right;
+    width :40%;
+    font-size: 200%;
+}
+ 
+.quote{
+    margin: 100px 10px;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.mepic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 500%;
+    height: 100vh; /* adjust as necessary */
+    padding: 10px 50px; /* reduce padding for smaller screens */
+  }
+  
+  .mepic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/photographer.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+@media (max-width:600px){
+    .container #motto{
+        font-family: "Playfair Display", serif;
+        font-size: 300%;
+        color: white;
+        display: block;
+    }
+    .container{
+        width: 50vw;
+    }
+    .container #pers{
+        font-family: "Playfair Display", serif;
+        color: white;
+        display: block;
+        text-align: right;
+        width :80%;
+        font-size: 150%;
+    }
+
+    .mepic{
+        font-size: 300%;
+    }
+}
+
+
+@media (max-width:350px){
+    .container #motto{
+        font-family: "Playfair Display", serif;
+        font-size: 190%;
+        color: white;
+        display: block;
+        
+    
+    }
+    
+    .container #pers{
+        font-family: "Playfair Display", serif;
+        color: white;
+        display: block;
+        text-align: right;
+        width :70%;
+        font-size: 100%;
+        
+    
+    }
+    .mepic{
+        font-size: 190%;
+    }
+}
