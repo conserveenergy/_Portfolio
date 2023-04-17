@@ -1,0 +1,35 @@
+.face-item{
+    position: relative;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.face-item h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.trainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.trainer img{
+    width: 300px;
+}
+
+.trainer p{
+    display: flex;
+    width: 900px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
