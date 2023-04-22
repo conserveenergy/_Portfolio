@@ -1,0 +1,41 @@
+.hiring{
+    display: grid;
+    /* grid-gap: 100px; */
+    
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+    margin: 30px 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hiring .post button{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.recruitment{
+    position: relative;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+    
+}
+
+.recruitment h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+}

@@ -1,0 +1,78 @@
+.mission{
+    margin: 100px 100px;
+}
+
+.history{
+    margin: 100px 100px;
+}
+
+.achievements{
+    margin: 100px 100px;
+}
+
+.awards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.awards div{
+    margin: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.awards div img{
+    width: 500px;
+}
+
+.awards div p{
+    width: 500px;
+    padding: 20px;
+}
+
+@media (max-width:600px){
+    .awards div img{
+        width: 300px;
+    }
+
+    .awards div p{
+        width: 300px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:400px){
+    .awards div{
+        margin: 10px 10px;
+    }
+
+    .awards div img{
+        width: 200px;
+    }
+
+    .awards div p{
+        width: 200px;
+        padding: 20px;
+    }
+
+    .achievements{
+        width: 200px;
+        margin: auto;
+    }
+
+    .history{
+        width: 200px;
+        margin: auto;
+    }
+
+    .mission{
+        width: 200px;
+        margin: auto;
+    }
+}
+
