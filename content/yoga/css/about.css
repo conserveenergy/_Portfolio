@@ -1,0 +1,139 @@
+.face-item{
+    position: relative;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.face-item h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.trainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.trainer img{
+    width: 250px;
+}
+
+.trainer p{
+    display: flex;
+    width: 900px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    margin: 100px auto;
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px
+  }
+  
+  .container div #motto{
+    font-size: 2rem;
+    padding: 10px;
+  }
+  
+  .container .about-us{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+  }
+  
+  .container .about-us img{
+    width: 300px;
+  }
+  
+  .services{
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services .our-services{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px ;
+    box-shadow: 2px 2px 5px grey;
+  }
+  .services .our-services a{
+    width: 250px;
+    margin: 0 30px;
+  }
+  .services div img{
+    width: 250px;
+    margin: 5px 5px;
+  }
+  .sessions{
+    margin: 100px auto;
+    width: 300px;
+  }
+  
+  .sessions table{
+    box-shadow: 2px 2px 5px grey;
+   margin: auto;
+   padding: 10px;
+   border: none;
+   font-size: small;
+   width: 300px;
+  }
+  
+  
+  @media (max-width: 300px){
+    .trainer img{
+        width: 150px;
+    }
+    .container .about-us img{
+        width: 150px;
+    }
+    .services div img{
+        width: 150px;
+      }
+
+      .container .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        box-shadow: 2px 2px 5px grey;
+        padding: 10px;
+        width: 200px;
+      }
+
+      .services .our-services{
+        width: 200px;
+      }
+
+      .sessions{
+        display: none;
+      }
+      
+  }
