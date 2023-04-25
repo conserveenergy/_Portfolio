@@ -1,0 +1,31 @@
+body{
+    background-color: lightgrey;
+}
+.book-appointment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+    height: 100vh;
+    margin: 100px;
+}
+.book-appointment div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.book-appointment div input{
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.book-appointment div button{
+    margin: 30px;
+}
