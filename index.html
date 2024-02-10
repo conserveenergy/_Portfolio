@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hint2,#hint3{
+            margin-top: 5rem;
+            font-size: 250%;
+            display: none;
+        }
+        a{
+            color: red;
+        }
+
+        button{
+            margin-top: 5rem;
+            background-color:yellowgreen;
+            
+            border-radius: 10%;
+            font-size: 2rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <button onclick="hint2()">Click here to show the hint2</button>
+    <div id="hint2">
+        password hint is 3 of the 4 letters in that password are present in your <a>Name</a>
+        <button onclick="hint3()">Click here to show the password</button>
+    </div>
+    <div id="hint3">
+        The password for the file is <a>lion</a>
+    </div>
+    <script>
+        function hint2(){
+            document.getElementById("hint2").style = "display: block"
+        }
+        function hint3(){
+            document.getElementById("hint3").style = "display: block"
+        }
+    </script>
+</body>
+</html>
