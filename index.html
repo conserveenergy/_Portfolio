@@ -5,22 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            margin: 3em;
+        }
         #hint2,#hint3{
-            margin-top: 5rem;
+            margin-top: 2rem;
             font-size: 250%;
             display: none;
         }
         a{
+            margin-top: rem;
             color: red;
         }
 
         button{
-            margin-top: 5rem;
-            background-color:yellowgreen;
-            
-            border-radius: 10%;
+            margin-top: 2rem;
+            /* margin-left: 3rem; */
+            background-color: black;
+            color: white;
+            border-radius: 10px;
             font-size: 2rem;
             
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -28,6 +38,7 @@
     <button onclick="hint2()">Click here to show the hint2</button>
     <div id="hint2">
         password hint is 3 of the 4 letters in that password are present in your <a>Name</a>
+        <br>
         <button onclick="hint3()">Click here to show the password</button>
     </div>
     <div id="hint3">
