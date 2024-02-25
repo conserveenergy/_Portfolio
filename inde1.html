@@ -8,7 +8,7 @@
         body{
             margin: 3em;
         }
-        #hint2,#hint3{
+        #hint2,#hint3,#hint4{
             margin-top: 2rem;
             font-size: 250%;
             display: none;
@@ -45,12 +45,15 @@
     
     <button onclick="hint2()">Click here to show the hint2</button>
     <div id="hint2">
-        password hint is 3 of the 4 letters in that password are present in your <a>Name</a>
+        the password hint is 3 of the 4 letters in that password are present in your <a>Name</a>
         <br>
         <button onclick="hint3()">Click here to show the password</button>
     </div>
     <div id="hint3">
-        The password for the file is <a>lion</a>
+        Are you sure? Don't you want to give it another try. it is there everywhere, in your name, in my post and most importantly your soul.
+    </div>
+    <div id="hint4">
+                The password for the file is <a>lion</a>
     </div>
     <script>
         function hint2(){
@@ -58,6 +61,9 @@
         }
         function hint3(){
             document.getElementById("hint3").style = "display: block"
+        }
+        function hint4(){
+            document.getElementById("hint4").style = "display: block"
         }
     </script>
 </body>
